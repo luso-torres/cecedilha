@@ -1,5 +1,5 @@
 //Programa:Acesso Remoto de Luz Elétrica
-//Autor: Gildarlio
+//Autor: Luso
  
 #include <ESP8266WiFi.h> // Importa a Biblioteca ESP8266WiFi
 #include <PubSubClient.h> // Importa a Biblioteca PubSubClient
@@ -12,7 +12,7 @@
                                                    //            desses tópicos. Caso contrário, há grandes
                                                    //            chances de você controlar e monitorar o NodeMCU
                                                    //            de outra pessoa.
-#define ID_MQTT  "gildarlio"     //id mqtt (para identificação de sessão)
+#define ID_MQTT  "Luso"     //id mqtt (para identificação de sessão)
                                //IMPORTANTE: este deve ser único no broker (ou seja, 
                                //            se um client MQTT tentar entrar com o mesmo 
                                //            id de outro já conectado ao broker, o broker 
